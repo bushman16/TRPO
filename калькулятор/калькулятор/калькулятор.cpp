@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int x, y, sum;
+    double x, y, sum;
     char znak;
 begin:
     cout << "Vvedite deystvie(+,-,*,/): ";
