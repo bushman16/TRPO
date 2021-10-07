@@ -15,6 +15,12 @@ begin:
     cout << endl;
     cout << "Vvedite vtoroe chislo: ";
     cin >> y;
+    if (znak == '/') {
+        while (y == 0) {
+            cout << "Na 0 nelzya delit! Vvedite chislo zanovo: ";
+            cin >> y;
+        }
+    }
     cout << endl;
     if (znak == '+') {
         sum = x + y;
